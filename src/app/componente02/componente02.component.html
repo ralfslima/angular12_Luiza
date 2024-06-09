@@ -1,0 +1,12 @@
+<button (click)="cadastrar()">Cadastrar uma nova postagem</button>
+<button (click)="alterar()">Alterar a postagem de código 101</button>
+<button (click)="remover()">Remover a postagem de código 101</button>
+
+<table>
+    <tr *ngFor="let v of vetor">
+        <td>{{v.userId}}</td>
+        <td>{{v.id}}</td>
+        <td>{{v.title}}</td>
+        <td>{{v.body}}</td>
+    </tr>
+</table>
